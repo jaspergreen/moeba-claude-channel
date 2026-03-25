@@ -1,0 +1,15 @@
+{
+  "name": "moeba-marketplace",
+  "owner": {
+    "name": "Moeba",
+    "email": "hello@moeba.co.za"
+  },
+  "plugins": [
+    {
+      "name": "moeba-channel",
+      "source": ".",
+      "description": "Chat with Claude Code from the Moeba mobile app",
+      "version": "0.0.9"
+    }
+  ]
+}
