@@ -7,9 +7,12 @@
   "plugins": [
     {
       "name": "moeba-channel",
-      "source": ".",
+      "source": {
+        "source": "npm",
+        "package": "moeba-claude-channel"
+      },
       "description": "Chat with Claude Code from the Moeba mobile app",
-      "version": "0.0.9"
+      "version": "0.0.11"
     }
   ]
 }
